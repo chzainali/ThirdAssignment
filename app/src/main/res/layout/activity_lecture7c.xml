@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Lecture7c">
+
+    <CheckBox
+        android:id="@+id/mCheck1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Option 1"/>
+    <CheckBox
+        android:id="@+id/mCheck2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Option 2"/>
+    <CheckBox
+        android:id="@+id/mCheck3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Option 3"/>
+    <Button
+        android:id="@+id/mCheckedBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click to show Clicked Checkbox"
+        android:onClick="CheckedBtn"/>
+
+    <RadioGroup
+        android:id="@+id/mRGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/mRBtn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:checked="true"/>
+        <RadioButton
+            android:id="@+id/mRBtn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FeMale"/>
+
+    </RadioGroup>
+    <Button
+        android:id="@+id/mRBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click to Show Radio Button"
+        android:onClick="RadioBtn"/>
+
+</LinearLayout>

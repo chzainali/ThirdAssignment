@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Lecture7b">
+
+    <ImageView
+        android:id="@+id/mImg"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/kp1"
+        android:alpha="0.9"
+        android:padding="10dp"
+        android:background="@color/teal_200"/>
+
+    <ImageButton
+        android:id="@+id/mImgBtn"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/expo1"
+        android:scaleType="fitXY"
+        android:layout_marginTop="10dp"/>
+
+    <ToggleButton
+        android:id="@+id/mToggleBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:layout_gravity="center"
+        android:onClick="ToggleBtn"/>
+    <Button
+        android:id="@+id/mBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Move On"
+        android:layout_gravity="center"
+        android:onClick="MoveOn"/>
+
+</LinearLayout>
